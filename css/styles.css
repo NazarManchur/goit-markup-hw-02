@@ -1,12 +1,14 @@
-.menu-list {
+.list {
   list-style: none;
-}
-.menu-link {
   text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .logo {
@@ -26,102 +28,102 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
   text-decoration: none;
 }
 .menu-link {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.menu-link:hover,
-.menu-link:active {
+.menu-link:hover {
   color: #404bbf;
-  text-decoration: underline;
 }
-
+.menu-link:focus {
+  color: #404bbf;
+}
+.contact-information {
+  font-size: normal;
+  list-style: ;
+}
 .contact-link {
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5px;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
 }
-.contact-link:hover,
-.contact-link:active {
+.contact-link:hover {
   color: #404bbf;
 }
-.main-text {
-  font-weight: 700;
+
+/* -------------------------MAIN------------------  */
+.section-one {
+  background-color: #2e2f42;
+}
+h1 {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
-  /* color: #FFFFFF; */
-  color: black;
+  color: #ffffff;
 }
-
 .button-one {
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-  background: #4d5ae5;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.button-one:hover,
-.button-one:active {
-  background: #404bbf;
-}
-.button-text {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sant-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
+.button-one:hover {
+  color: #404bbf;
+}
+.button-one:focus {
+  color: #404bbf;
+}
+
+/* -----------section two------------------ */
 .main-two-section {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.text-two-section {
+.two-section-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* ---------------section 3--------------- */
 .name-section {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
-.worker-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+/* ---------------section 4--------------- */
+.section-four {
+  background-color: #f4f4fd;
 }
-.worker-position {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.back-photo {
+  background-color: #ffffff;
+}
+/* ---------------footer--------------- */
+.main-footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
 }
 .footer-pharagrafe {
   font-size: 16px;
@@ -129,40 +131,23 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/*    PAAAAAAAAAAAAAAAGE TWO */
+/* -----------HEADER--------------- */
 .button-second-page {
-  width: 116px;
-  height: 48px;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-}
-.button-second-page:hover,
-.button-second-page:active {
-  background: #404bbf;
-}
-.name-second-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
-.name-second-button:hover,
-.name-second-button:active {
+.button-second-page:hover {
   color: #ffffff;
+  background-color: #404bbf;
 }
-.photo-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.apps {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.button-second-page:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
