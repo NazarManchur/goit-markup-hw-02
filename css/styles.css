@@ -52,7 +52,8 @@ body {
   list-style: none;
   font-style: normal;
 }
-.contact-information:focus {
+.contact-information:focus,
+.contact-information:hover {
   color: #404bbf;
 }
 .contact-link {
@@ -78,7 +79,7 @@ h1 {
 }
 .button-one {
   background-color: #4d5ae5;
-  font-family: "Roboto", sant-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -91,7 +92,7 @@ h1 {
   color: #404bbf;
 }
 .button-text {
-  font-family: "Roboto", sant-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* -----------section two------------------ */
 .main-two-section {
