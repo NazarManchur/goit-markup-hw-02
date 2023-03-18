@@ -49,7 +49,7 @@ body {
 }
 .contact-information {
   font-size: normal;
-  list-style: ;
+  list-style: none;
   font-style: normal;
 }
 .contact-information:focus {
