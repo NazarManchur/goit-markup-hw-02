@@ -9,6 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 .logo {
@@ -51,6 +52,9 @@ body {
   list-style: ;
   font-style: normal;
 }
+.contact-information:focus {
+  color: #404bbf;
+}
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -82,9 +86,7 @@ h1 {
   color: #ffffff;
   cursor: pointer;
 }
-.button-one:hover {
-  color: #404bbf;
-}
+.button-one:hover,
 .button-one:focus {
   color: #404bbf;
 }
